@@ -1,0 +1,13 @@
+{
+  "0":[
+    {
+      "key":"BOOKING_ID",
+      "value":[
+        {
+          "type":"NUMBER(11,0)",
+          "position":0
+        }
+      ]
+    }
+  ]
+}

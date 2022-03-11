@@ -1,0 +1,12 @@
+## Config kafka
+applicationId: doctor
+groupId: doctor
+autoCommitIntervalMs: 10000
+maxPollIntervalMs: 20000
+consumerPollTime: 900
+sessionTimeoutMs: 30000
+autoOffsetReset: earliest
+enableAutoCommit: false
+maxPollRecords: 10000
+keySerializer: org.apache.kafka.common.serialization.StringDeserializer
+valueSerializer: org.apache.kafka.common.serialization.StringDeserializer

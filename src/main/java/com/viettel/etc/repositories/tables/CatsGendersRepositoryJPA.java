@@ -1,0 +1,2 @@
+package com.viettel.etc.repositories.tables;import com.viettel.etc.repositories.tables.entities.CatsGendersEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Cats_genders *  * @author ToolGen * @date Mon Sep 07 16:47:07 ICT 2020 */@Repositorypublic interface CatsGendersRepositoryJPA extends JpaRepository<CatsGendersEntity, Long> {
+}

@@ -1,0 +1,44 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+src/main/java/com/viettel/etc/services/impl/TestServiceImpl.java
+src/main/java/com/viettel/etc/services/TestService.java
+src/main/java/com/viettel/etc/repositories/impl/TestRepositoryImpl.java
+src/main/java/com/viettel/etc/repositories/TestRepository.java
+src/main/java/com/viettel/etc/controllers/TestController.java
+src/main/java/com/viettel/etc/services/tables/UsersService.java
+src/main/java/com/viettel/etc/repositories/tables/entities/UsersEntity.java
+src/main/java/com/viettel/etc/repositories/tables/UsersRepository.java
+src/main/java/com/viettel/etc/dto/TestDTO.java
+
+src/main/resources/template_gencode.json
+src/main/resources/application.properties
+src/main/resources/config.properties

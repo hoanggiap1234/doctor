@@ -1,0 +1,49 @@
+<settings>
+  <servers>
+    <server>
+      <id>maven-snapshots</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+    <server>
+      <id>maven-releases</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+   <proxies>
+<!--     proxy
+     | Specification for one proxy, to be used in connecting to the network.
+     | 
+    <proxy>
+      <id>optional</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>10.61.11.42</host>
+      <port>3128</port>
+      <nonProxyHosts>localhost|10.60.108.23| 127.0.0.1</nonProxyHosts>
+    </proxy>
+-->
+  </proxies>
+  <mirrors>
+    <!-- mirror
+     | Specifies a repository mirror site to use instead of a given repository. The repository that
+     | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used
+     | for inheritance and direct lookup purposes, and must be unique across the set of mirrors.
+     | 
+    <mirror>
+      <id>mirrorId</id>
+      <mirrorOf>repositoryId</mirrorOf>
+      <name>Human Readable Name for this Mirror.</name>
+      <url>http://my.repository.com/repo/path</url>
+    </mirror> -->
+     
+	<mirror>
+       <id>viettel-maven-repository</id>
+        <mirrorOf>*</mirrorOf>
+        <name>Viettel Maven Repository</name>
+        <url>http://10.60.108.23:9001/repository/maven-public/</url>
+    </mirror> 
+  </mirrors>
+
+</settings>

@@ -1,0 +1,1 @@
+package com.viettel.etc.services;import com.viettel.etc.dto.DoctorsCommentsDTO;/** * Autogen class: * * @author ToolGen * @date Wed Dec 23 14:47:05 ICT 2020 */public interface DoctorsCommentsService {	public Object getDoctorComments(DoctorsCommentsDTO itemParamsEntity);}

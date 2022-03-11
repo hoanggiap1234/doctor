@@ -1,0 +1,2 @@
+package com.viettel.etc.services;import com.viettel.etc.dto.BookingInformationDTO;/** * Autogen class:  *  * @author ToolGen * @date Wed Aug 19 21:30:23 ICT 2020 */public interface BookingInformationService {        public Object countBookingByBookingGroup(BookingInformationDTO itemParamsEntity);
+}

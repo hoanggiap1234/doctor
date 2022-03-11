@@ -1,0 +1,14 @@
+{
+  "configInfor": [
+    {
+      "topicName": "toppic.create_cinic_account",
+      "configThreadFileName": "configTopics/create_cinic_account",
+      "modelConfigFileName": "modelConfigs/create_cinic_account"
+    },
+    {
+      "topicName": "toppic.change_status_active_doctor",
+      "configThreadFileName": "configTopics/change_status_active_doctor_consummer",
+      "modelConfigFileName": "modelConfigs/consummer_model_config"
+    }
+  ]
+}
